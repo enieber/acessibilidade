@@ -1,0 +1,26 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #fbfafa;
+}
+
+h1, h2, h3, p {
+  text-align: center; 
+}
+
+header, main {
+  margin: 1em;
+}
+
+li {
+  display: inline;
+  margin: 0.5em 0.3em 0 0.3em;
+}
+
+li > a {
+  text-decoration: none;
+  color: #191970;
+} 
