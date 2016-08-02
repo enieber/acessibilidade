@@ -1,0 +1,58 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-size:18px;
+}
+
+body {
+  background: #fbfafa;
+}
+
+h1, h2, h3, p {
+  text-align: center; 
+}
+
+header, main {
+  margin: 1em;
+}
+
+li {
+  display: inline;
+  margin: 0.5em 0.3em 0 0.3em;
+}
+
+li > a {
+  text-decoration: none;
+}
+
+.menu {
+  position: fixed;
+  padding: 1em;
+  margin-top: -1em;
+  margin-left: -1em;
+  background: #333333;
+}
+
+.menu {
+  width: 100%;
+}
+
+.menu-iten--link {
+  margin: 0.5em;
+  color: #fff;
+}
+
+.menu-iten--link:hover{
+  background: #f1fafa;
+  color: #000;
+}
+
+.header {
+  background: #28425a;
+  color: white;
+}
+
+.header--profile {
+  height-max: 405px;
+  border-radius: 90%;
+}
