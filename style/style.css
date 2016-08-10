@@ -9,7 +9,7 @@ body {
 }
 
 h1, h2, h3, p {
-  text-align: center; 
+  text-align: center;
 }
 
 header, main {
@@ -55,4 +55,23 @@ li > a {
 .header--profile {
   height-max: 405px;
   border-radius: 90%;
+}
+
+main {
+  width: 100%;
+  margin: 0;
+}
+
+.first-part {
+  margin: 0;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 2em;
+  height: 15em;
+  background:#336699;
+  color: white;
+}
+
+.articles {
+  
 }
